@@ -28,7 +28,7 @@ public class UserController {
 	@Test
 	@RequestMapping("/getUser")
 	public ModelAndView getUser(HttpServletRequest req){
-		System.out.println("2222222");
+		System.out.println("3333333");
 	//	exc.execute(new ThreadTest1());
 	//	exc.execute(new ThreadTest2());
 		String username =req.getParameter("name");
